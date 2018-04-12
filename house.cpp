@@ -81,7 +81,7 @@ int main()
 			cout << "car ports [3]" << endl;
 			cout << "windows   [4]" << endl;
 			cout << "doors     [5]" << endl;
-			cout << "press 6 when you are done" << endl;
+			cout << "press 6 to return to the previous menu" << endl;
 
 			
 			
@@ -127,6 +127,10 @@ int main()
 				}
 				else if (edit == 6)
 				{
+					cout << "if you would like to print this house please press 1. " << endl;
+					cout << "if you would like to appraise this house please press 2. " << endl;
+					cout << "if you would like to edit this house please press 3." << endl;
+					cout << "if you would like to end this program please press 4." << endl;
 					printl = 1;
 				}
 			}
